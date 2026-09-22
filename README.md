@@ -116,7 +116,7 @@ User ──1:1── JobSeekerProfile ──1:N── Application ──N:1─�
 - Node.js 18+
 - (Optional) Docker & Docker Compose
 
-### 1. Backend
+###  Backend
 
 ```bash
 cd job-portal-backend
@@ -139,14 +139,6 @@ email:    admin@jobportal.com
 password: Admin@123
 ```
 
-### 2. Frontend
-
-```bash
-cd job-portal-frontend
-cp .env.example .env     # set VITE_API_URL if backend isn't on localhost:8080
-npm install
-npm run dev
-```
 
 Frontend runs at **http://localhost:5173**
 
